@@ -72,6 +72,8 @@ const ALLOWED_DOMAINS = new Set([
   "giphy.com",
   "reddit.com",
   "forms.microsoft.com",
+  /// -------- CUSTOM ----------
+  "hotina.app"
 ]);
 
 const ALLOW_SAME_ORIGIN = new Set([
@@ -86,6 +88,8 @@ const ALLOW_SAME_ORIGIN = new Set([
   "stackblitz.com",
   "reddit.com",
   "forms.microsoft.com",
+  /// -------- CUSTOM ----------
+  "hotina.app"
 ]);
 
 export const createSrcDoc = (body: string) => {
